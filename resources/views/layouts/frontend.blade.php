@@ -180,7 +180,7 @@
                     @endforeach
                   </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="{{ route('contact') }}">Contact</a></li>
               </ul>
             </nav>
           </div>
