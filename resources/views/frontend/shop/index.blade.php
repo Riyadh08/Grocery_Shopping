@@ -24,6 +24,7 @@
     <section class="product spad">
       <div class="container">
         <div class="row">
+          
           <div class="col-lg-3 col-md-5">
             @include('frontend.shop.sidebar')
           </div>
