@@ -219,7 +219,7 @@
                   <button type="submit" class="site-btn">SEARCH</button>
                 </form>
               </div> --}}
-              <div class="hero__search__phone">
+              {{-- <div class="hero__search__phone">
                 <div class="hero__search__phone__icon">
                   <i class="fa fa-phone"></i>
                 </div>
@@ -227,7 +227,7 @@
                   <h5>+8801773844866</h5>
                   <span>support 24/7 time</span>
                 </div>
-              </div>
+              </div> --}}
             </div>
           </div>
         </div>
@@ -280,7 +280,7 @@
               <p>
                 Get E-mail updates about our latest shop and special offers.
               </p>
-              <form action="#">
+              <form action="{{ url('/contact') }}" method=get>
                 <input type="text" placeholder="Enter your mail" />
                 <button type="submit" class="site-btn">Subscribe</button>
               </form>
