@@ -200,3 +200,6 @@ export default Cart;
 if (document.getElementById("cart")) {
     ReactDOM.render(<Cart />, document.getElementById("cart"));
 }
+
+
+
