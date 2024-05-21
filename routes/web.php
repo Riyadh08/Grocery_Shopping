@@ -35,7 +35,6 @@ Route::get('carts', [\App\Http\Controllers\CartController::class, 'showCart']);
 Route::post('api/checkout', [\App\Http\Controllers\OrderController::class, 'checkout']);
 // get user login
 Route::get('api/users', [\App\Http\Controllers\UserController::class, 'index']);
-// ==========
 
 
 Route::group(['middleware' => 'auth'], function() {
