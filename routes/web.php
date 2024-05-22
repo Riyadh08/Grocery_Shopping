@@ -25,7 +25,7 @@ Route::get('/shop/{slug?}', [\App\Http\Controllers\ShopController::class, 'index
 Route::get('/shop/tag/{slug?}', [\App\Http\Controllers\ShopController::class, 'tag'])->name('shop.tag');
 Route::get('/product/{product:slug}', [\App\Http\Controllers\ProductController::class, 'show'])->name('product.show');
 
-// react route
+//optional routes
 Route::get('products/{slug?}', [\App\Http\Controllers\ShopController::class, 'getProducts']);
 Route::get('products', [\App\Http\Controllers\HomeController::class, 'getProducts']);
 Route::get('product-detail/{product:slug}', [\App\Http\Controllers\ProductController::class, 'getProductDetail']);
