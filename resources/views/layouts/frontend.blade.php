@@ -280,10 +280,17 @@
               <p>
                 Get E-mail updates about our latest shop and special offers.
               </p>
-              <form action="{{ url('/contact') }}" method=get>
-                <input type="text" placeholder="Enter your mail" />
-                <button type="submit" class="site-btn">Subscribe</button>
-              </form>
+              <form action="{{ route('newsletter.subscribe') }}" method="POST">
+                @csrf
+                <input type="email" name="email" required>
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+
+            @if (session('success'))
+          <div class="alert alert-success">
+            {{ session('success') }}
+          </div>
+           @endif
               <div class="footer__widget__social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>

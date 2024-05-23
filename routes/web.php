@@ -3,11 +3,14 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\SslCommerzPaymentController;
+use App\Http\Controllers\NewsletterController;
 
 
 Route::get('/contact',function(){
     return view('contact');
 })->name('contact');
+
+Route::post('/subscribe', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('homepage');
 Route::get('/shop/{slug?}', [\App\Http\Controllers\ShopController::class, 'index'])->name('shop.index');
