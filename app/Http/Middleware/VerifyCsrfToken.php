@@ -11,6 +11,10 @@ class VerifyCsrfToken extends Middleware
      *
      * @var array<int, string>
      */
+
+     /**
+      * This is SSL certificate verification
+      */
     protected $except = [
         '/success',
         '/cancel',
