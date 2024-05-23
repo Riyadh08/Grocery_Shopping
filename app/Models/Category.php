@@ -14,11 +14,6 @@ class Category extends Model implements HasMedia
 
     protected $guarded = ['id', 'created_at', 'updated_at'];
 
-    protected $appends = [
-        'photo',
-    ];
-
-
     
     /**
      * Return the sluggable configuration array for this model.

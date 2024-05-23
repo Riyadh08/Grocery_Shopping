@@ -116,7 +116,7 @@
             <div class="col-lg-6 col-md-6">
               <div class="header__top__left">
                 <ul>
-                  <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
+                  <li><i class="fa fa-envelope"></i> ryad@gmail.com</li>
                   <li>Free Shipping for all Order of $99</li>
                 </ul>
               </div>
@@ -249,7 +249,7 @@
               <ul>
                 <li>Address: 60-49 Road 11378 New York</li>
                 <li>Phone: +8801773844866</li>
-                <li>Email: hello@colorlib.com</li>
+                <li>Email: ryad@gmail.com</li>
               </ul>
             </div>
           </div>
