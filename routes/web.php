@@ -4,12 +4,14 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\SslCommerzPaymentController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\AdminController;
 
 
 Route::get('/contact',function(){
     return view('contact');
 })->name('contact');
 
+Route::get('/admin/newsletters', [AdminController::class, 'newsletters'])->name('admin.newsletters');
 Route::post('/subscribe', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('homepage');

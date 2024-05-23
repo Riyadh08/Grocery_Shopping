@@ -34,7 +34,9 @@
                         <a class="collapse-item" href="{{ route('admin.categories.index') }}">Category</a>
                         <a class="collapse-item" href="{{ route('admin.tags.index') }}">Tag</a>
                         <a class="collapse-item" href="{{ route('admin.products.index') }}">Product</a>
+                        <a class="collapse-item" href="{{ route('admin.newsletters') }}">user</a>
                     </div>
                 </div>
+
         </li>
 </ul>
