@@ -32,7 +32,7 @@
 <div class="container">
     <div class="py-5 text-center">
         <h2>Hosted Payment - SSLCommerz</h2>
-        <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. We have provided this sample form for understanding Hosted Checkout Payment with SSLCommerz.</p>
+        <p class="lead">Below is an example form built entirely with Bootstrap's form controls. We have provided this sample form for understanding Hosted Checkout Payment with SSLCommerz.</p>
     </div>
 
     <div class="row">
