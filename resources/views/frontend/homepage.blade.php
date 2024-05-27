@@ -20,6 +20,9 @@
     <section class="categories">
       <div class="container">
         <div class="row">
+          
+          {{-- Using slider --}}
+
           <div class="categories__slider owl-carousel">
             @foreach($menu_categories as $menu_category)
               <div class="col-lg-3">
