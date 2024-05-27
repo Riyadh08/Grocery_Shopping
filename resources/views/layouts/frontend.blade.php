@@ -101,8 +101,8 @@
       </div>
       <div class="humberger__menu__contact">
         <ul>
-          <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-          <li>Free Shipping for all Order of $99</li>
+          <li><i class="fa fa-envelope"></i> ryad@gmail.com</li>
+          <li>Free Shipping for all Order of $499</li>
         </ul>
       </div>
     </div>
@@ -117,7 +117,7 @@
               <div class="header__top__left">
                 <ul>
                   <li><i class="fa fa-envelope"></i> ryad@gmail.com</li>
-                  <li>Free Shipping for all Order of $99</li>
+                  <li>Free Shipping for all Order of $499</li>
                 </ul>
               </div>
             </div>
