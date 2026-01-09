@@ -65,3 +65,24 @@ routes/             Web routes
 storage/            Logs & uploads
 tests/              Test cases
 
+## Step 1: Clone Repository
+git clone https://github.com/your-username/Grocery_Shopping.git
+cd Grocery_Shopping
+
+## Step 2: Install Dependencies
+composer install
+npm install
+npm run dev
+
+## Step 3: Setup Environment
+cp .env.example .env
+php artisan key:generate
+
+##Step 4: Run Migrations
+php artisan migrate
+
+## Step 5: Run the Application
+php artisan serve
+
+http://127.0.0.1:8000
+
