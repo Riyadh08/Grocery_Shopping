@@ -65,6 +65,7 @@ routes/             Web routes
 storage/            Logs & uploads
 tests/              Test cases
 
+---
 ## Step 1: Clone Repository
 git clone https://github.com/your-username/Grocery_Shopping.git
 cd Grocery_Shopping
