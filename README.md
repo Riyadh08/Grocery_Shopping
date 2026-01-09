@@ -1,9 +1,3 @@
-# Laravel 9 - Ecommerce application
-
-## Screenshots
-
-![preview img](/preview.png)
-
 # 🛒 Laravel 9 – Ecommerce Application
 
 A full-featured **Grocery Shopping E-commerce Web Application** built using **Laravel 9**.  
